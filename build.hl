@@ -1,0 +1,18 @@
+|| HackerScript
+|| H#
+
+;; build hack3rc
+>> cd hack3rc
+>> git clone https://github.com/HackerOS-Linux-System/HackerScript.git
+>> bit build --release
+
+;; build hle (experimental Hacker Lang written in your own)
+>> cd hle
+>> bit build --release
+
+;; build hhc
+>> cd hhc
+>> bit build --release
+
+;; or build everything:
+;; > bit build --release
